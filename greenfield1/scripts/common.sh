@@ -3,7 +3,7 @@
 
 # Get repository root
 get_repo_root() {
-    git rev-parse --show-toplevel
+    pwd
 }
 
 # Get current branch
